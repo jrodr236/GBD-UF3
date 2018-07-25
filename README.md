@@ -1,37 +1,23 @@
-## Welcome to GitHub Pages
+UF3. Assegurament de la informació
+=======================================
 
-You can use the [editor on GitHub](https://github.com/jrodr236/GBD-UF3/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+* [Seguretat de la informació](SeguretatDeLaInformacio.md)
+* [Salvaguarda. Recuperació. Transferència](SalvaguardaRecuperacioTransferencia.md)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+---
+Basat en el [material didàctic de l'Institut Obert de Catalunya](https://ioc.xtec.cat/materials/FP/Materials/2251_ASIX/ASIX_2251_M02/web/html/index.html).
+* © Departament d'Ensenyament.
+* Coordinació: Cristina Obiols Llopart
+* Redacció UF3: Marcel García Vacas
 
-### Markdown
+---
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Autor: Joan Rodríguez Bellido
 
-```markdown
-Syntax highlighted code block
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Llicència de Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>
 
-# Header 1
-## Header 2
-### Header 3
+Aquesta obra està subjecta a una llicència de <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Reconeixement 4.0 Internacional de Creative Commons</a>
 
-- Bulleted
-- List
+---
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/jrodr236/GBD-UF3/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+[#FpInfor](https://github.com/ProfesInformatica/FpInfor) #Asix #AsixM02 #AsixM02Uf03
