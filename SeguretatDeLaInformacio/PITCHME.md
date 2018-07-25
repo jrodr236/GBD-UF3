@@ -1,11 +1,14 @@
 Seguretat de la informació
 =========================
+
+[Veure Teoria](https://jrodr236.github.io/GBD-UF3/SeguretatDeLaInformacio)
+
 ---
 
 Confidencialitat, integritat i disponibilitat de les dades
 -----------------------------
 
-![The bit three](img/the-big-three.png)
+<img src="img/the-big-three.png" height="400px">
 
 +++
 
@@ -45,6 +48,7 @@ La gran majoria de les dades són de caràcter personal.
 Normativa legal vigent
 ------------------------
 
++++
 
 ### Llei de protecció de dades de caràcter personal
 
@@ -88,8 +92,8 @@ aplicació.
 
 ### Registre General de Protecció de Dades
 
-Els fitxers amb dades de caràcter personal s’hauran d'inscriure en el **Registre
-General de Protecció de Dades**.
+Els fitxers amb dades de caràcter personal s’hauran d'inscriure en el Registre
+General de Protecció de Dades.
 
 ---
 
