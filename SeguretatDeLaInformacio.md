@@ -1,6 +1,10 @@
 Seguretat de la informació
 =========================
 
+* [Resum](https://gitpitch.com/jrodr236/GBD-UF3/master?p=SeguretatDeLaInformacio)
+* Exercicis teòrics: *moodle*
+* [Exercicis pràctics](ExercicisSeguretatDeLaInformacio.md)
+
 A l’hora de tractar la seguretat en les dades cal tenir present que l’objectiu final és minimitzar el risc de pèrdua o d’usos indeguts de la informació de les companyies protegint-ne els sistemes i la informació crítica.
 
 Confidencialitat, integritat i disponibilitat de les dades
