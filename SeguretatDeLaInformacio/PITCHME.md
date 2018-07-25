@@ -95,6 +95,8 @@ aplicació.
 Els fitxers amb dades de caràcter personal s’hauran d'inscriure en el Registre
 General de Protecció de Dades.
 
++++
+
 ### Reglament General de Protecció de Dades de la Unió Europea
 
 Enforteix i unifica la protecció de dades per tots els països de la Unió Europea, controlant també la transferència de dades fora de la Unió.
