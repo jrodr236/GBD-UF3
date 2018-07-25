@@ -74,6 +74,8 @@ A continuació, en podem trobar l’estructura:
 * Títol VI. Agència Espanyola de Protecció de Dades.
 * Títol VII. Infraccions i sancions.
 
+[Text íntegre](http://administraciojusticia.gencat.cat/web/.content/documents/arxius/lo15_1999lopdcp.pdf)
+
 Una **dada de caràcter personal** pot ser qualsevol informació numèrica,
 alfabètica, fotogràfica, acústica o gràfica concernent a qualsevol persona
 física viva que la pugui identificar directament o indirectament. Un tipus
@@ -117,6 +119,18 @@ de caràcter personal.
 
 Els fitxers amb dades de caràcter personal s’hauran d'inscriure en el Registre
 General de Protecció de Dades.
+
+### Reglament General de Protecció de Dades de la Unió Europea
+
+El Reglament General de Protecció de Dades (GDPR) és un reglament europeu mitjançant el qual pretenen enfortir i unificar protecció de dades per tots els països de la Unió europea (UE), controlant també la transferència de dades fora de la Unió.
+
+Els seus principals objectius són retornar als ciutadans el control sobre la seva informació personal i unificar el marc regulador per a les multinacionals.
+
+Suposa una llei més estricta que altres normes i es tracta de la primera norma sobre aquesta matèria que afecta a tots els països de la Unió Europea i unifica tant els drets com les obligacions.
+
+Va entrar en vigor el 25 de maig de 2018, després d'un període de transició de dos anys, i, a diferència de les directives, no requereix incorporació a la legislació nacional, sent directament aplicable.
+
+La GDPR substituirà la Llei Orgànica de Protecció de Dades de Caràcter Personal (LOPD), encara que aquesta es mantindrà en vigor en tot el que no contradigui el nou reglament fins que no s'aprovi la normativa que la substitueixi.
 
 Amenaces a la seguretat
 -------------------
