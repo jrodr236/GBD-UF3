@@ -1,6 +1,10 @@
 Salvaguarda. Recuperació. Transferència
 ===================
 
+* [Resum](https://gitpitch.com/jrodr236/GBD-UF3/master?p=SalvaguardaRecuperacioTransferencia)
+* Exercicis teòrics: *moodle*
+* [Exercicis pràctics](ExercicisSalvaguardaRecuperacioTransferencia.md)
+
 Concepte de seguretat i recuperació
 ---------------------
 En termes informàtics i, més concretament, pel que fa a les bases de dades, a **tenir cura de les dades** duent-ne a terme una o diverses còpies de seguretat, o bé duent a terme les accions necessàries per mantenir les dades protegides davant possibles accessos no desitjables o altres atacs.
@@ -15,6 +19,16 @@ Els aspectes més importants per a la seguretat són la planificació dels proce
 
 Tot projecte de desenvolupament d'una aplicació informàtica requereix, en la fase de disseny, el desenvolupament d'un pla de contingència que prevegi una política de còpies de seguretat.
 
+Aquest pla de contingència haurà d'indicar:
+* Què: quines parts o dades del projecte cal emmagatzemar.
+* Quan: quan s’haurà de dur a terme el procés de seguretat i cada quan s’haurà
+de repetir.
+* On: on s’hauran de guardar aquestes dades, establint-ne la ubicació física.
+* Com: en quin tipus de suport s’han d’emmagatzemar les còpies de seguretat.
+* També caldrà indicar en el pla de contingència com s’haurà d'actuar per
+dur a terme la restauració de les dades assegurades en el cas eventual de
+necessitat de recuperar el sistema de còpies de seguretat *(backups)* o accedir-
+hi.
 
 El pla de seguretat i tota la infraestructura que envolta la informació és un dels pilars bàsics que sustenten l'èxit o el fracàs d'una organització, i s'arriba a externalitzar aquest servei contractant proveïdors de seguretat, encarregats de la seguretat de la informació confidencial que es manipula a l'organització.
 
@@ -23,6 +37,26 @@ L'RLOPD estableix la còpia de seguretat en un fitxer automatitzat sobre un supo
 ### Tipus de suports
 
 Una vegada s'ha planificat el procés de seguretat, el responsable del desenvolupament d'un programari o el responsable del sistema informàtic han de determinar quina és la millor opció, entre els suports existents en el mercat, per emmagatzemar les dades que faran servir durant l'execució. Però haurà de tenir en compte, per als suports físics, el sistema en producció, un possible sistema de desenvolupament o proves i un sistema de còpies de seguretat.
+
+Alguns d'aquests suports físics poden ser:
+* **Discos durs**: ofereixen una velocitat superior a la resta de suports.
+* **Discos compactes**: CD/DVD/BlueRay/HD-DVD, tenen una mida més petita que els discos durs. Es tracta d'un suport més sensible a trencaments,
+pèrdues o ratllades.
+* **Cintes magnètiques**: actualment es fa servir en algunes grans
+organitzacions que mantenen els sistemes de seguretat, pel seu baix cost i alta capacitat d'emmagatzemament. La velocitat d'accés és relativament lenta, però aquest no és un factor important alhora d'emmagatzemar còpies de seguretat.
+* **Discos durs externs**: tenen la capacitat de ser transportats de manera senzilla i de ser punxats
+al sistema informàtica en calent. Mides més petites (o iguals però més cares)
+i velocitats més grans que altres suports d'emmagatzemament.
+* **Unitats Flash o memòries USB**: unitats de suport físic molt semblants als
+discos durs externs, però de mides i capacitats molt més reduïdes. Més
+senzilles de portar d'un sistema informàtic a un altre i molt més fàcils
+d'agafar per persones alienes a les organitzacions.
+* **Unitats de xarxa d'àrea d'emmagatzematge (SAN)**: tipus de xarxa preparada per a la connexió de servidors i de matrius de discos durs. La seva
+funcionalitat és la connexió molt ràpida dels elements que en formen part.
+* **RAID (redundant array of independent disks)**: es tracta d'un sistema informàtic per
+a l’emmagatzematge de dades de manera replicada. Els avantatges respecte
+a un sistema d'un sol disc dur són la tolerància més gran a possibles errades
+i la integritat superior de les dades.
 
 La **replicació de les dades** consisteix a copiar les dades d'una ubicació física a una altra, normalment per blocs i de manera diferencial. Les dades que han canviat a la font o al sistema en producció queden replicades de manera automàtica en el sistema de seguretat o de destinació.
 
@@ -39,8 +73,14 @@ Les còpies parcials són les que, com el seu nom indica, no duran a terme una c
 Les còpies parcials poden ser incrementals o diferencials.
 * Les **còpies incrementals** són aquelles en què només es copiaran els
 fitxers modificats o creats des de la darrera còpia incremental feta.
+  ![Còpia incremental](http://static.couchbaseinc.hosting.ca.onehippo.com/images/server/3.x/20170420-170703/backup-differential-incremental.jpg)
+
 * Les **còpies diferencials** són aquelles en què només es copiaran els
 fitxers modificats o creats des de la darrera còpia completa.
+  ![Còpia diferencial](http://static.couchbaseinc.hosting.ca.onehippo.com/images/server/3.x/20170420-170703/backup-cumulative-incremental.jpg)
+
+Cal entendre que es pot fer servir una combinació de varis tipus de còpies de seguretat.
+![Combinació d'incremental i diferencial](http://static.couchbaseinc.hosting.ca.onehippo.com/images/server/3.x/20170420-170703/backup-combined-incremental.jpg)
 
 Recuperació de les dades
 ---------------------
@@ -55,6 +95,8 @@ Utilitats per a la seguretat i recuperació
 ---------------------
 Una bona selecció d'una aplicació per fer i recuperar còpies de seguretat dependrà de les necessitats que es tinguin, la ubicació física (tipus i lloc) de les dades i del sistema informàtic on es duran a terme.
 
+Caldrà escollir si utilitzar una utilitat integrada en el propi sistema gestor de bases de dades, o una utilitat externa.
+
 Sentències per fer i recuperar còpies de seguretat
 ---------------------
 
@@ -66,7 +108,7 @@ Les sentències SQL que permeten dur a terme aquestes accions són:
 * **Backup**, que permet crear una còpia de seguretat d'una base de dades. Aquesta sentència permet treballar tant amb els fitxers que contenen la definició de les taules com amb els fitxers que contenen les dades.
 * **Restore**, que permet la restauració a partir d'una còpia de seguretat d'una taula de la base de dades, en què s'hagi fet servir la sentència Backup. La restauració podrà ser de tota la base de dades, d'una part o la restauració de la base de dades en un punt concret en què s'hagi fet una captura de la situació.
 
-
+És important tenir en compte que no tots els SBGD implementen aquestes sentències.
 
 
 

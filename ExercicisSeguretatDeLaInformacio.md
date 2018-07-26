@@ -1,10 +1,8 @@
 Seguretat de la informació - Exercicis pràctics
 =========================
 
-Sentències jurídiques LOPD
+Sentències jurídiques LOPD (7 punts)
 -----------------------------
-
-> Aquesta pràctica es corregirà a classe. L'explicarà un/a alumne/a escollit aleatòriament.
 
 ### Cerca de sentència
 
@@ -40,18 +38,11 @@ tractis els aspectes dits abans.
 Inclou un apartat explicant com es podia haver evitat aquest
 incompliment de la llei
 
-Grimpada: GDPR vs. LOPD
+GDPR vs. LOPD (3 punts)
 ----------------
 
->Aquesta pràctica és d'una dificultat més alta. La correcció a classe serà voluntària, però serà avaluada quan es lliuri al moodle.
-
-Investiga els següents aspectes, i prepara't per fer una presentació davant dels teus companys:
+Investiga els següents aspectes i prepara un document amb les respostes:
 * Què és la GDPR?
 * Quins son els aspectes principals d'aquesta normativa?
 * Quines novetats aporta la GDPR respecte a la LOPD?
-* Canviarà la LOPD per culpa de la GDPR? En quins aspectes?
-
-A part de fer la presentació, caldrà lliurar:
-* Transparències de suport a la presentació
-* Notes de la presentació
-* Bibliografia
+* Es modifica la LOPD per culpa de la GDPR? En quins aspectes?

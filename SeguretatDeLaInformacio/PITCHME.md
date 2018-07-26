@@ -43,6 +43,14 @@ Caràcter personal i el dret a la intimitat de les dades
 
 La gran majoria de les dades són de caràcter personal.
 
+* **Dades de tipus bàsic**: informacions de
+caràcter personal.
+
+* **Dades de nivell mitjà**: comissió d'infraccions, solvència, seguretat social, personalitat.
+
+* **Dades de nivell alt**: ideologia, afiliació sindical, origen racial, salut, derivades d'actes
+de violència de gènere, recollides amb finalitats policials.                        
+
 ---
 
 Normativa legal vigent

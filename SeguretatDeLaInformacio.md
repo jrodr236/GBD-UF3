@@ -56,6 +56,18 @@ Caràcter personal i el dret a la intimitat de les dades
 
 Hi ha molts tipus de dades, però la gran majoria són de caràcter personal o bé tenen una dependència força directa d'una persona o una organització. Fins i tot les dades que indiquen la quantitat d'unitats d'un producte determinat en un magatzem o els llibres que hi ha en una biblioteca tenen aquest tipus de dependència.
 
+Les **dades de tipus bàsic** són tots els registres que continguin informacions de
+caràcter personal.
+
+Les **dades de nivell mitjà** són les que fan referència a la comissió d'infraccions
+administratives o penals, a la solvència patrimonial o de crèdit, les relacionades
+amb la seguretat social o les que facin referència a les característiques o la
+personalitat de les persones.
+
+Les **dades de nivell alt** són les dades de caràcter personal que fan referència a la
+ideologia, l’afiliació sindical, l’origen racial, la salut, les dades derivades d'actes
+de violència de gènere o recollides amb finalitats policials.
+
 Normativa legal vigent
 ------------------------
 
