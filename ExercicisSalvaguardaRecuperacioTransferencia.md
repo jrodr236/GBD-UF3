@@ -4,9 +4,9 @@ Salvaguarda. Recuperació. Transferència - Exercicis pràctics
 Pla de contingència
 ----------------------
 
-Descarrega el següent pla de contingència: https://tavistockandportman.nhs.uk/documents/73/ict-failure-contingency-plan.pdf
+Descarrega el següent [pla de contingència](https://tavistockandportman.nhs.uk/documents/73/ict-failure-contingency-plan.pdf).
 
-Identifica els conceptes bàsics respecte a la seguretat de les bases de dades:
+Identifica els conceptes bàsics respecte a la seguretat de les bases de dades del pla de contingència anterior:
 1. **Què**: quines parts o dades del projecte cal emmagatzemar.
 1. **Quan**: quan s’haurà de dur a terme el procés de seguretat i cada quan s’haurà
 de repetir.
