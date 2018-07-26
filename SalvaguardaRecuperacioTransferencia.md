@@ -20,13 +20,13 @@ Els aspectes més importants per a la seguretat són la planificació dels proce
 Tot projecte de desenvolupament d'una aplicació informàtica requereix, en la fase de disseny, el desenvolupament d'un pla de contingència que prevegi una política de còpies de seguretat.
 
 Aquest pla de contingència haurà d'indicar:
-* Què: quines parts o dades del projecte cal emmagatzemar.
-* Quan: quan s’haurà de dur a terme el procés de seguretat i cada quan s’haurà
+* **Què**: quines parts o dades del projecte cal emmagatzemar.
+* **Quan**: quan s’haurà de dur a terme el procés de seguretat i cada quan s’haurà
 de repetir.
-* On: on s’hauran de guardar aquestes dades, establint-ne la ubicació física.
-* Com: en quin tipus de suport s’han d’emmagatzemar les còpies de seguretat.
+* **On**: on s’hauran de guardar aquestes dades, establint-ne la ubicació física.
+* **Com**: en quin tipus de suport s’han d’emmagatzemar les còpies de seguretat.
 * També caldrà indicar en el pla de contingència com s’haurà d'actuar per
-dur a terme la restauració de les dades assegurades en el cas eventual de
+dur a terme la **restauració** de les dades assegurades en el cas eventual de
 necessitat de recuperar el sistema de còpies de seguretat *(backups)* o accedir-
 hi.
 

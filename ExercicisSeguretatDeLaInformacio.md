@@ -1,7 +1,7 @@
 Seguretat de la informació - Exercicis pràctics
 =========================
 
-Sentències jurídiques LOPD (7 punts)
+Sentències jurídiques LOPD
 -----------------------------
 
 ### Cerca de sentència
@@ -38,7 +38,7 @@ tractis els aspectes dits abans.
 Inclou un apartat explicant com es podia haver evitat aquest
 incompliment de la llei
 
-GDPR vs. LOPD (3 punts)
+GDPR vs. LOPD
 ----------------
 
 Investiga els següents aspectes i prepara un document amb les respostes:
