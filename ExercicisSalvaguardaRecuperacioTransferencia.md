@@ -6,7 +6,7 @@ Pla de contingència
 
 Descarrega el següent [pla de contingència](https://tavistockandportman.nhs.uk/documents/73/ict-failure-contingency-plan.pdf).
 
-Identifica els conceptes bàsics respecte a la seguretat de les bases de dades del pla de contingència anterior:
+Identifica els conceptes bàsics respecte a la **seguretat de les bases de dades** del pla de contingència anterior:
 1. **Què**: quines parts o dades del projecte cal emmagatzemar.
 1. **Quan**: quan s’haurà de dur a terme el procés de seguretat i cada quan s’haurà
 de repetir.
@@ -23,19 +23,25 @@ En cas que algun dels conceptes no quedi clar o no s'especifiqui, indica-ho i fe
 Transferència de dades
 -------------------------
 > Per a realitzar aquesta pràctica has d'escollir dos SGBD relacionals, els que vulguis: My_SQL/MariaDB, PostgreSQL, Oracle Database, Microsoft SQL Server, ~~MongoDB~~, etc...
+
+> MongoDB no és un SBGD relacional, és del tipus NoSQL.
+
+> Els dos SGBD no poden ser MySQL i MariaDB, ja que MariaDB és un *fork* de MySQL.
+
 > Es recomana descarregar dues *Virtual Appliance*, per exemple de [bitnami](https://bitnami.com/stacks/database), per estalviar-te el desplegament.
 
 1. Descarrega alguna base de dades d'exemple amb un volum de dades una mica alt. Per exemple [aquesta per MySQL](http://downloads.mysql.com/docs/world.sql.gz).
 1. Crea una nova base de dades amb la informació descarregada a un dels SGBD.
 1. Fes algun canvi a la base de dades.
 1. Transfereix la base de dades creada, incloent les modificacions que has fet, a l'altre SGBD.
-
-> No és vàl·lid importar la base de dades descarregada a l'altre SGBD i després repetir les modificacions fetes, cal utilitzar algunes eines que permetin importar+exportar o fer la transferència directament.
+  > No és vàl·lid importar la base de dades descarregada a l'altre SGBD i després repetir les modificacions fetes, cal utilitzar algunes eines que permetin importar+exportar o fer la transferència directament.
+5. Respon (sense portar-ho a terme): què caldria fer per automatizar la transferència de dades que has realitzat?
 
 
 Copies de seguretat i restauració
 -------------------------------
 > Per a realitzar aquesta pràctica pots escollir l'SGBD que vulguis: My_SQL/MariaDB, PostgreSQL, Oracle Database, Microsoft SQL Server, MongoDB, etc...
+
 > Es recomana descarregar una *Virtual Appliance*, per exemple de [bitnami](https://bitnami.com/stacks/database), per estalviar-te el desplegament.
 
 ### Creació de la Base de Dades
