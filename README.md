@@ -23,4 +23,4 @@ Aquesta obra està subjecta a una llicència de <a rel="license" href="http://cr
 
 ---
 
-[#FpInfor](https://github.com/ProfesInformatica/FpInfor) #Asix #AsixM02 #AsixM02Uf03
+[#FpInfor](https://profesinformatica.github.io/FpInfor/) #Asix #AsixM02 #AsixM02Uf03
