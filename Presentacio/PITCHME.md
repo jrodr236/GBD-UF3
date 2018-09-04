@@ -39,7 +39,15 @@ ABD, UF2. Instal·lació i ajustament de SGBD corporatiu
 
 +++
 
-### ...
+### Administració d'un SGBD
+
+![Database Tunning](http://2.bp.blogspot.com/-5sOhMEUFcWA/VKKKY1Su4HI/AAAAAAAADYY/Gw7UwAU9q8E/s1600/Database%2BTuning%2B-%2BEffective%2BTips%2Bfor%2BDatabase%2BPerformance%2BTuning.png)
+
++++
+
+### Cluster d'SGBD
+
+![Database Cluster](https://docs.oracle.com/cd/E17236_01/epm.1112/epm_install/images/graphics/essbase_database_cluster.jpg)
 
 ---
 
@@ -48,7 +56,9 @@ IAW, UF2. Implantació de gestors de continguts
 
 +++
 
-### ...
+### Implantació de web apps
+
+![LAMP](https://somnathpawar.files.wordpress.com/2010/09/lamp-stack.gif)
 
 ---
 
