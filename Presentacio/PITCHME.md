@@ -47,7 +47,7 @@ ABD, UF2. Instal·lació i ajustament de SGBD corporatiu
 
 ### Cluster d'SGBD
 
-![Database Cluster](https://docs.oracle.com/cd/E17236_01/epm.1112/epm_install/images/graphics/essbase_database_cluster.jpg)
+<img src="https://docs.oracle.com/cd/E17236_01/epm.1112/epm_install/images/graphics/essbase_database_cluster.jpg" height="400px">
 
 ---
 
