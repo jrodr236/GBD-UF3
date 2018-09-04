@@ -1,12 +1,11 @@
 Presentació
 =======================
 
-**Mòduls i UFs:**
-- Gestió de bases de dades, UF3
-- Administració de bases de dades, UF2
-- Implantació d’aplicacions web, UF2
-
-**Cicle:** Administració de Sistemes Informàtics en la Xarxa
+* **Mòduls i UFs:**
+  - Gestió de bases de dades, UF3
+  - Administració de bases de dades, UF2
+  - Implantació d’aplicacions web, UF2
+* **Cicle:** Administració de Sistemes Informàtics en la Xarxa
 
 ---
 
@@ -30,7 +29,7 @@ GBD, UF3. Assegurament de la informació
 
 ### Salvaguarda. Recuperació. Transferència
 
-<img src="https://apps.odoo.com/apps/modules/11.0/auto_db_backup/Previewimage.png" height="500px">
+<img src="https://apps.odoo.com/apps/modules/11.0/auto_db_backup/Previewimage.png" height="400px">
 
 ---
 
@@ -113,7 +112,7 @@ Proves (exàmens)
 
 Part teòrica i pràctica
 
-Si no es pot assistir, enviar email abans de 1a hora del matí.
+Si no es pot assistir, enviar email abans de 1a hora de classe d'aquell dia.
 
 ---
 
@@ -134,7 +133,7 @@ Feu tot el possible per no anar-hi!
 
 S'han de lliurar tots els exercicis de la UF fets a classe.
 
-Nota màxima 6
+Nota màxima 6.
 
 ---
 
