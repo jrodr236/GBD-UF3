@@ -92,9 +92,6 @@ Proves (exàmens): 40%
 
 Seguiment treball diari
 
-Pràctiques *ordinàries*: correcció d'alumne aleatori
-
-*Grimpades*: correcció opcional
 
 |A|B|C|D|E|
 |:-:|:-:|:-:|:-:|:-:|
@@ -112,8 +109,6 @@ Pràctiques *ordinàries*: correcció d'alumne aleatori
   * Tipus de fitxer: **PDF**
   * Lliurar tard: 1 dia = 1 punt menys
   * Copiar: 0 per tots
-  * Pràctiques *ordinàries*: permeten arribar al 7-8.
-  * *Grimpades*: permeten arribar al 10.
 
 +++
 
