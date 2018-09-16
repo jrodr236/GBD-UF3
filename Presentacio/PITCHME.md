@@ -87,10 +87,7 @@ Proves (exàmens): 40%
 
 +++
 
-### Demostracions i correcció en veu alta
-
-
-Seguiment treball diari
+### Qualificacions amb lletres
 
 
 |A|B|C|D|E|
