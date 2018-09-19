@@ -68,7 +68,7 @@ Les còpies de seguretat es poden dur a terme de moltes maneres, ja que hi ha mo
 
 Les còpies completes, com el seu nom indica, duran a terme una còpia de tot el que hi ha en el sistema d'origen. Són un tipus de còpia sense gaires secrets. Es tracta de copiar tot el que es troba en el sistema d'origen (ja siguin totes les dades o totes les dades i totes les aplicacions) i emmagatzema en el sistema de destinació. El problema és l'espai. En el cas de tenir una gran quantitat de dades caldrà disposar d'un sistema de destinació o de seguretat que sigui, com a mínim, igual de gran que el sistema d'origen.
 
-Les còpies parcials són les que, com el seu nom indica, no duran a terme una còpia completa de tot el sistema o de tots els arxius de dades, sinó que copiarà només una part determinada dels arxius o del sistema. Aquests tipus de còpies, les còpies parcials, només copiaran els arxius que s'hagin modificat des de la darrera vegada que s'hagi dut a terme un procediment de seguretat, sense tornar a copiar tots els arxius que siguin iguals en el sistema d'origen i en el sistema de destinació.
+Les còpies parcials són les que, com el seu nom indica, no duran a terme una **còpia completa** de tot el sistema o de tots els arxius de dades, sinó que copiarà només una part determinada dels arxius o del sistema. Aquests tipus de còpies, les còpies parcials, només copiaran els arxius que s'hagin modificat des de la darrera vegada que s'hagi dut a terme un procediment de seguretat, sense tornar a copiar tots els arxius que siguin iguals en el sistema d'origen i en el sistema de destinació.
 
 Les còpies parcials poden ser incrementals o diferencials.
 * Les **còpies incrementals** són aquelles en què només es copiaran els
